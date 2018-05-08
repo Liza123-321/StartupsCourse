@@ -2,8 +2,8 @@ import CrudController from './crud.controller';
 import {send} from '../../helpers/sender.helper';
 
 export default class UserController extends CrudController {
-    constructor ({usersService, cacheService}) {
-        super(usersService, cacheService);
+    constructor ({startupService, cacheService}) {
+        super(startupService, cacheService);
         this.registerRoutes();
     }
 };

@@ -4,9 +4,7 @@ const users = require('../data/db/users.json');
 
 
 export default async (db) => {
-    const dbUsers = await db['users'].bulkCreate(users);
-    const dbCategories = await db['categories'].bulkCreate(categories);
-    const dbStartups = await db['startups'].bulkCreate(startups);
-
-
+    const dbUsers = await db['Users'].bulkCreate(users);
+    const dbCategories = await db['Categories'].bulkCreate(categories);
+    const dbStartups = await db['Startups'].bulkCreate(startups);
 };
