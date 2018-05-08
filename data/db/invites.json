@@ -1,0 +1,14 @@
+[
+  {
+    "userWhomId": 1,
+    "projectId": 1,
+    "flag": "help",
+    "inviteMessage": "could you help us?"
+  },
+  {
+    "userWhomId": 2,
+    "projectId": 1,
+    "flag": "help",
+    "inviteMessage": "could you help us?"
+  }
+]
