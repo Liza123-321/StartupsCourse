@@ -3,11 +3,11 @@ export default (Sequelize, sequelize) => {
         id: {
             autoIncrement: true,
             primaryKey: true,
-            type: Sequelize.STRING
+            type: Sequelize.INTEGER
         },
         projectName: {type: Sequelize.STRING},
         projectDescription: {type: Sequelize.STRING},
         projectStatus: {type: Sequelize.STRING},
-        IdCreator:  {type: Sequelize.STRING}
+        IdCreator:  {type: Sequelize.INTEGER}
     });
 };

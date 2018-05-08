@@ -3,10 +3,10 @@ export default (Sequelize, sequelize) => {
         id: {
             autoIncrement: true,
             primaryKey: true,
-            type: Sequelize.STRING
+            type: Sequelize.INTEGER
         },
-        userWhomId: {type: Sequelize.STRING},
-        projectId: {type: Sequelize.STRING},
+        userWhomId: {type: Sequelize.INTEGER},
+        projectId: {type: Sequelize.INTEGER},
         flag: {type: Sequelize.STRING},
         inviteMessage:  {type: Sequelize.STRING}
     });

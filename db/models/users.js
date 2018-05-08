@@ -3,7 +3,7 @@ export default (Sequelize, sequelize) => {
         id: {
             autoIncrement: true,
             primaryKey: true,
-            type: Sequelize.STRING
+            type: Sequelize.INTEGER
         },
         userName: {type: Sequelize.STRING},
         email: {type: Sequelize.STRING},

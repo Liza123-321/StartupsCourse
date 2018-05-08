@@ -3,9 +3,9 @@ export default (Sequelize, sequelize) => {
         id: {
             autoIncrement: true,
             primaryKey: true,
-            type: Sequelize.STRING
+            type: Sequelize.INTEGER
         },
-        userId: {type: Sequelize.STRING},
-        startupId: {type: Sequelize.STRING}
+        userId: {type: Sequelize.INTEGER},
+        startupId: {type: Sequelize.INTEGER}
     });
 };
