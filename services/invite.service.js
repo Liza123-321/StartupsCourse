@@ -2,6 +2,6 @@ import CrudService from './crud.service';
 
 export default class User extends CrudService {
     constructor ({context, schemas, errors}) {
-        super(context['Users'], schemas['user'], errors);
+        super(context['Invites'], schemas['invite'], errors);
     }
 }
