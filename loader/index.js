@@ -3,7 +3,7 @@ import {Sequelize} from 'sequelize';
 import context from '../context';
 import errors from '../helpers/errors.helper';
 import apiController from '../controllers/api';
-import schemas from '../shemas';
+import schemas from '../schemas';
 
 export default () => {
   const container = createContainer();

@@ -1,0 +1,20 @@
+[
+  {
+    "projectName": "DogsAndCats",
+    "projectDescription": "Progect for find pets",
+    "projectStatus": "active",
+    "IdCreator": 1
+  },
+  {
+    "projectName": "SomeWrong",
+    "projectDescription": "Progect about wrong sings",
+    "projectStatus": "active",
+    "IdCreator": 2
+  },
+  {
+    "projectName": "ARHelper",
+    "projectDescription": "AR and VR book",
+    "projectStatus": "active",
+    "IdCreator": 1
+  }
+]
