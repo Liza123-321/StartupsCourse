@@ -3,7 +3,7 @@ import CrudService from './crud.service';
 export default class User extends CrudService {
     constructor ({context, schemas, errors}) {
         super(context['Startups'], schemas['startup'], errors);
-        this.userRepository = context['User'];
+        this.userRepository = context['Users'];
     }
     async addUser (userId, teamId) {
         const user = await this.userRepository.findById(userId);
