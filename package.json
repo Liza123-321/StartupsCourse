@@ -10,6 +10,7 @@
     "body-parser": "^1.18.2",
     "config": "^1.30.0",
     "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
     "express": "^4.16.2",
     "express-form": "^0.12.6",
     "hal": "^1.2.0",

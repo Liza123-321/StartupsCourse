@@ -7,6 +7,7 @@ export default class User extends CrudService {
     }
     async FindUser ({userName, pass}) {
         const user = await this.repository.findOne({where: {userName: userName, pass: pass}});
+        console.log(user);
         if (!user) throw this.errors.notFound;
         return user;
     }

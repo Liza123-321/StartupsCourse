@@ -1,12 +1,14 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import tempDataToDb from './helpers/tempDataToDb.helper';
+var cors = require('cors');
 
 export default async (container) => {
     await container.resolve('context').sequelize.sync({force: true});
     await tempDataToDb(container.resolve('context'));
 
     const app = express();
+    app.use(cors());
 
     app.use(bodyParser.json());
 
