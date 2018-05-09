@@ -12,3 +12,4 @@ export default (Sequelize, sequelize) => {
         UserPhoto:  {type: Sequelize.STRING}
     });
 };
+
